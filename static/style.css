@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(72, 120, 173);
+}
+
+.container {
+    position: middle;
+    border: 6px solid rgb(2, 2, 22);
+    border-style: groove;
+    background-color: rgb(22, 82, 150);
+    width: 800px;
+    height: 0 auto;
+    margin: 0 auto;
+    text-decoration-style: wavy;
+    text-align: center;
+    text-emphasis-color: rgb(72, 120, 173);
+    text-decoration-color: black;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1 {
+    background-image: url('https://image.freepik.com/free-vector/poker-table-background-blue-color_47243-1095.jpg');
+    color: whitesmoke;
+    position: relative;
+}
+
+.flex-blackjack-row-1 div {
+    display: flex;
+    padding: 5px;
+    flex: 3;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 350px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.flex-blackjack-row-1 div h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex-blackjack-row-2 div {
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1.5px solid rgb(2, 2, 22);
+    padding: 10px;
+}
+
+.flex-blackjack-row-1 img {
+    width: 10%;
+    padding: 2px;
+}
+
+.flex-blackjack-row-1 div img {
+    width: 130px;
+    height: 130px;
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    border: 2px solid rgb(2, 2, 22);
+}
+
+h1,
+h2,
+h3 {
+    text-align-last: auto;
+}
